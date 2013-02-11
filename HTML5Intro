@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <center>
+	<script type="text/javascript">
+		var x = "coding";
+		function learn(x){
+			alert("Learn everything on this page!!!");
+			}
+		learn();	
+	</script>
+	<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjB8S3ykfM34EBARdPJnApqN2d3klDpf8&sensor=false">
+	</script>
+	<script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+      }
+    </script>
+	<body onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+	</body>
+	<form>
+	<input type="button" value="Test Me" onclick="learn()">
+	</form>
+	<body style="background-color:red;">
+	</body>
+	<body>
+		<audio controls="controls" autoplay="autoplay">
+			<source src="Annie.mp3"/>
+		</audio>
+	</body>
+	<body>
+		<p> 
+		<img src="html5.jpg"/> 
+		</p>
+		<p>
+		...and a little Javascript too!
+		</p>
+	</body>
+	<head>
+		<meta charset="utf-8">
+		<title>
+		HTML5 and Javascript Set-up Intro
+		</title>
+	</head>
+	<body>
+		<p style="font-family:arial;font-size:25px;">
+			What's up?? So you wanna learn to how to create an html5 and Javascript webpage?
+		</p>
+	</center>
+	<p style="font-size:20px;">
+		Well here's how you do it...
+	</p>
+	</body>
+	<ol>
+		<li>
+		Download and install that pesky Xampp 7zip file (if you don't have 7zip...download that too)
+		</li>
+			<p>
+			Everything good? Awesome!
+			</p>
+		<li>
+		Next enter the Xampp folder (place the whole thing in your C-drive for easy access) and go to the "htdocs" folder
+		</li>
+			<p>
+			At this point, you've essentially turned your own computer into its own host...a.k.a. you don't need a browser
+			</p>
+		<li>
+		Now go to an open browser (Crome if you're cool) and type: "localhost/xampp/"
+		</li>
+			<p>
+			Congrats!! You've just pulled up (hopefully) a webpage solely run on your computer!
+			</p>
+		<li>
+		Now go back to the htdocs folder in your Xampp and create a folder titled "isat252"
+		</li>
+			<p>
+			Everything is case and space sensitive!!!
+			</p>
+		<li>
+		Enter the new folder and select the "Organize" option at the top right of the window
+		</li>
+			<p>
+			Select the "View" tab and uncheck the "Hide Extensions" option
+			</p>
+		<li>
+		Now right-click and create a new Text Document
+		</li>
+			<p>
+			Rename the document "index.html" This changes the text document to a webpage style document
+			</p>
+		<li>
+		Select (single-click) the new document and right-click. Select the "Edit with Notepad++" option
+		</li>
+			<p>
+			If you don't have Notepad++, download it! ...It only makes life easier for this programming language
+			</p>
+		<li>
+		Type something in and save it (Shortcut: Ctrl+S)
+		</li>
+			<p>
+			Remember that everthing (including folder names) are case and space sensitive!!
+			</p>
+		<li>
+		If you want to do other things (like create lists like the one you are currently reading), we can go into that too
+		</p>
+	</ol>
+	<body>
+		<p style="font-size:20px;">
+		And now you've created your first html5 webpage! Congrats!
+		</p>
+	</body>
+	<body>
+		<p style="font-size:25px;">
+		Now let's get down to the details of creating a basic html5 webpage...
+		</p>
+		<ol>
+			<li>
+			At the top of the same index.html file, type out the tags for html
+			</li>
+		</ol>
+	</body>
+	<body>
+	Sources used in the making of this Webpage:
+	<p>
+	http://meetup.tikalk.com/events/50528382/?action=detail&eventId=50528382
+	<br>
+	http://www.youtube.com/watch?feature=player_embedded&v=yQaAGmHNn9s
+	</p>
+	</body>
+</html>
